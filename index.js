@@ -5,6 +5,8 @@ import inquirer from "inquirer";
 //3.check if guess is right or wrong
 //const random_number = 13;
 const random_number = Math.floor(Math.random() * 10) + 1;
+console.log("welcome to number guessing game");
+
 const answers = await inquirer.prompt([
     {
         name: "user guessed number",
